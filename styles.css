@@ -1,0 +1,82 @@
+body{
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  text-align: center;
+  font-family: "Trade Winds", system-ui;
+  color: #A7D129
+}
+.main-container{
+  background-color: #3E432E;
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-creature{
+  width: 100%;
+  max-width: 400px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.label-search{
+  text-align: center;
+  font-size: 20px;
+  font-family: "Trade Winds", system-ui;
+  color: #A7D129
+}
+.row{
+  display: flex;
+  gap:10px;
+}
+.search-input{
+  background-color: #616F39;
+  color: #A7D129
+}
+.btn-search{
+  background-color: #A7D129;
+  font-family: "Trade Winds", system-ui;
+  color: #3E432E
+
+}
+
+.base-stats-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+.stats-info-container , .base-info-container{
+
+  text-align: left;
+  font-family: "Trade Winds", system-ui;
+  color: #A7D129;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #616F39;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px
+}
+.tr-head{
+border: 1px solid #A7D129;
+border-left: none;
+border-right: none;
+border-top: none;
+}
+th, td {
+padding: 15px;
+}
+.display{
+  display: none;
+}
